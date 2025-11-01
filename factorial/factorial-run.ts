@@ -2,4 +2,4 @@
 
 import { factorial } from './factorial';
 
-console.log(factorial(0));
+console.log(factorial(5));
