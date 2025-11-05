@@ -1,9 +1,13 @@
 {
     "compilerOptions": {
-    "module": "commonjs",
-    "target": "ES2024",
-    "moduleResolution": "node",
-    "types": ["node", "jest"],
-    "ignoreDeprecations": "6.0"
+        "module": "commonjs",
+        "target": "ES2024",
+        "moduleResolution": "node",
+        "types": [
+            "node",
+            "jest"
+        ],
+        "ignoreDeprecations": "6.0",
+        "sourceMap": true
     }
 }
