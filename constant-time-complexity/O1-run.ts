@@ -1,6 +1,7 @@
 //@ts-check
 
 import { accessElement } from './O1';
+import { mean2 } from '../mean-calculation/mean'
 
 let arrayOfNums = [];
 
@@ -19,6 +20,4 @@ for (let i = 0; i < 10000; i++) {
     arrElapsed.push(elapsed);
 }
 
-const mean = arrElapsed.reduce((prev, current) => prev + current) / arrElapsed.length;
-
-console.log(mean);
+console.log(mean2(arrElapsed));
